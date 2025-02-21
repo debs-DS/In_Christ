@@ -25,3 +25,11 @@ section{
     grid-template-columns: 1fr 1fr;
     gap: 20px 30px;
 }
+
+@media screen and (max-width:850px){
+    /* 480 */
+    section{
+        display: block;
+        flex-direction: column;
+    }
+}
