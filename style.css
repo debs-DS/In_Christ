@@ -29,7 +29,9 @@ section{
 @media screen and (max-width:850px){
     /* 480 */
     section{
-        display: block;
         flex-direction: column;
+    }
+    nav{
+        display: block;
     }
 }
