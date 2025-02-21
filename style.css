@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    width: 100%;
+    border-top: 5px solid lightblue;
+    border-bottom: 1px solid lightblue;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+h1{
+    color: lightblue;
+    font-size: 32px;
+    font-family: cursive;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 30px;
+}
