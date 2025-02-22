@@ -25,6 +25,12 @@ section{
     grid-template-columns: 1fr 1fr;
     gap: 20px 30px;
 }
+.yellow{
+    color: yellow;
+}
+li{
+    font-size: 14px;
+}
 
 @media screen and (max-width:850px){
     /* 480 */
