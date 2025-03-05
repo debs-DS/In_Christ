@@ -7,8 +7,8 @@
 }
 nav{
     display: flex;
+    padding: 20px;
     width: 100%;
-    border-top: 5px solid lightcoral;
     border-bottom: 1px solid lightcoral;
 }
 ul{
