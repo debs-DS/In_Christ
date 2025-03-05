@@ -8,15 +8,15 @@
 nav{
     display: flex;
     width: 100%;
-    border-top: 5px solid lightblue;
-    border-bottom: 1px solid lightblue;
+    border-top: 5px solid lightcoral;
+    border-bottom: 1px solid lightcoral;
 }
 ul{
     list-style-type: none;
     display: flex;
 }
 h1{
-    color: lightblue;
+    color: lightcoral;
     font-size: 32px;
     font-family: cursive;
 }
