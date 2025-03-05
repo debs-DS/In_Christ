@@ -31,6 +31,11 @@ section{
 li{
     font-size: 14px;
 }
+.small-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 15px;
+}
 
 @media screen and (max-width:850px){
     /* 480 */
