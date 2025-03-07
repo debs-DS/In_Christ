@@ -39,12 +39,18 @@ li{
 .img{
     display: flex;
 }
+button{
+    background-color: lightcoral;
+    color: black;
+    border: none;
+}
 
 @media screen and (max-width:850px){
     /* 480 */
     section{
         display: block;
         flex-direction: column;
+        gap: 10px;
     }
     nav{
         display: block;
