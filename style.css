@@ -36,6 +36,9 @@ li{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px 15px;
 }
+.img{
+    display: flex;
+}
 
 @media screen and (max-width:850px){
     /* 480 */
@@ -44,6 +47,9 @@ li{
         flex-direction: column;
     }
     nav{
+        display: block;
+    }
+    .img{
         display: block;
     }
 }
