@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>+Found Faith+</title>
-    <link rel="shortcut icon" href="images/jesus+cross.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icon2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -53,7 +53,7 @@
                 I hope that it is fun to use and that you learn from it!!
             </p>
             <a href="about.html">
-                <button style="padding: 15px; width: 90px;">
+                <button style="padding: 15px; width: 90px;" onmouseover="fade(this)" onmouseout="coral(this)">
                     SEE MORE
                 </button>
             </a>
@@ -78,12 +78,19 @@
                 The March JESUS Challenge is an acronym.<br>
             </p>
             <p style="color: lightgreen;">J - Journal<br>E - Experience<br>S - Study<br>U - Understand<br>S - Speak</p>
-            <a href="march.html"><button style="background-color: lightgreen; padding: 15px; width: 90px;">SEE MORE</button></a>
+            <a href="march.html">
+                <button style="background-color: lightgreen; padding: 15px; width: 90px;"onmouseover="fade(this)" onmouseout="green(this)">
+                    SEE MORE
+                </button>
+            </a>
         </center>
     </div>
     <script>
         function color(x) {x.style.color="lightcoral"}
         function black(x) {x.style.color="black"}
+        function fade(x) {x.style.backgroundColor="grey", x.style.color="white"}
+        function coral(x) {x.style.backgroundColor="lightcoral", x.style.color="black"}
+        function green(x) {x.style.backgroundColor="lightgreen", x.style.color="black"}
     </script>
 </body>
 </html>
