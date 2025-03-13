@@ -58,4 +58,7 @@ button{
     .img{
         display: block;
     }
+    .small-col{
+        display: block;
+    }
 }
