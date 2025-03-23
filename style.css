@@ -20,7 +20,7 @@ h1{
     color: lightcoral;
     font-size: 32px;
 }
-section{
+.two-col{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px 30px;
@@ -47,7 +47,7 @@ button{
 
 @media screen and (max-width:850px){
     /* 480 */
-    section{
+    .two-col{
         display: block;
         flex-direction: column;
         padding: 10px 0px 10px 0px;
