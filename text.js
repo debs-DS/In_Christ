@@ -5,6 +5,7 @@
     // button
     function fade(x) {x.style.backgroundColor = "grey", x.style.color = "white"}
     function coral(x) {x.style.backgroundColor = "lightcoral", x.style.color = "black"}
+    function white(x) {x.style.color = "white"}
 
     // march green
     function green(x) {x.style.backgroundColor = "lightgreen", x.style.color = "black"}
