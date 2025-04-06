@@ -10,15 +10,20 @@ nav{
     display: flex;
     padding: 20px;
     width: 100%;
-    border-bottom: 1px solid lightcoral;
+    border-bottom: 1px solid #6495ed;
 }
 ul{
     list-style-type: none;
     display: flex;
 }
 h1{
-    color: lightcoral;
+    color: #6495ed;
     font-size: 32px;
+}
+.three-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 15px;
 }
 .two-col{
     display: grid;
@@ -40,14 +45,23 @@ li{
     display: flex;
 }
 button{
-    background-color: lightcoral;
+    background-color: #6495ed;
     color: black;
     border: none;
+}
+.home{
+    background-image: url(images/back.home.2.png);
+    background-size: cover;
 }
 
 @media screen and (max-width:850px){
     /* 480 */
     .two-col{
+        display: block;
+        flex-direction: column;
+        padding: 10px 0px 10px 0px;
+    }
+    .three-col{
         display: block;
         flex-direction: column;
         padding: 10px 0px 10px 0px;
