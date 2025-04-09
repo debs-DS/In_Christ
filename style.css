@@ -49,10 +49,6 @@ button{
     color: black;
     border: none;
 }
-.home{
-    background-image: url(images/back.home.2.png);
-    background-size: cover;
-}
 
 @media screen and (max-width:850px){
     /* 480 */
